@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar_container">
+      <a href="#home" id="navbar_logo">Biometria</a>
+      <div class="navbar_toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar_menu">
+        <li class="navbar_item">
+          <a href="#home" class="navbar_links" id="home-page">Home</a>
+        </li>
+        <li class="navbar_item">
+          <a href="#impressao" class="navbar_links" id="digital-page">Digital</a>
+        </li>
+        <li class="navbar_item">
+          <a href="#facial" class="navbar_links" id="facial-page">Facial</a>
+        </li>
+        <li class="navbar_item">
+          <a href="#ocular" class="navbar_links" id="ocular-page">Ocular</a>
+        </li>
+        <li class="navbar_item">
+          <a href="#about" class="navbar_links" id="about-page">About Us</a>
+        </li>
+        <img src="./lua.png" id="icon">
+      </ul>
+        
+    </div>
+  </nav>   
+  
+  <!-- Home Section -->
+  <div class="home" id="home">
+    <div class="home_container">
+      <p class="home_description">Biometria</p>
+      <br>
+      <div class="main_content">
+        <p id="results"></p>
+      </div>
+      <br>
+      <br>
+        <button class="btn" id="getData" >Gerar um Conselho</button>
+    </div>
+  </div>
+
+<!-- Impressão Section -->
+<div class="main" id="impressao">
+  <div class="main_container">
+    <div class="main_img_container">
+      <div class="main_img_card">
+        <img src="./digital.jpg">
+      </div>
+    </div>
+      <div class="main_content">
+        <h2>Impressão digital</h2>
+        <br>
+        <p>Impressão digital é o desenho formado pelas papilas, presentes nas polpas dos dedos das mãos, deixado em uma superfície lisa. Impressão digital são únicos para cada indivíduo.</p>
+      </div>
+  </div>
+</div>
+
+<!-- Facial Section -->
+<div class="main" id="facial">
+  <div class="main_container">
+    <div class="main_img_container">
+      <div class="main_img_card">
+        <img src="./facial.jpg">
+      </div>
+    </div>
+      <div class="main_content">
+        <h2>Reconhecimento Facial</h2>
+        <br>
+        <p>Um sistema de reconhecimento facial é uma técnica cuja base vem de que cada pessoa tem um padrão característico facial em que, usando algum sistema de análise profunda de imagem, se pode identificar tal indivíduo.</p>
+      </div>
+  </div>
+</div>
+
+<!-- Ocular Section -->
+<div class="main" id="ocular">
+  <div class="main_container">
+    <div class="main_content">
+      <h2>Reconhecimento Ocular</h2>
+      <br>
+      <p>O reconhecimento da íris funciona com base em padrões únicos dentro da região em forma de anel em torno da pupila dos nossos olhos. A íris geralmente tem uma cor marrom, azul, cinza ou esverdeada, com padrões complexos que são visíveis após a inspeção.</p>
+    </div>
+    <div class="ocular_img_container">
+      <div class="main_img_card">
+        <img src="./ocular.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="about" id="about">
+  <h1>About Us</h1>
+  <div class="about_wrapper">
+    <div class="about_card">
+      <img src="./avatar.png" id="avatar">
+      <br>
+      <h2>Lucas Gaita</h2>
+      <p>200012992</p>
+    </div>
+    <div class="about_card">
+      <img src="./avatar.png" id="avatar">
+      <br>
+      <h2>Matheus Silva</h2>
+      <p>200015032</p>
+    </div>
+    <div class="about_card">
+      <img src="./avatar.png" id="avatar">
+      <br>
+      <h2>Pablo Silva</h2>
+      <p>200012577</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
