@@ -87,6 +87,7 @@ img{
 }
 
 .navbar_menu {
+
   display: flex;
   align-items: center;
   list-style: none;
@@ -208,6 +209,7 @@ img{
   }
 
   #mobile-menu {
+    background-color: var(--buttonback-color);
     position: absolute;
     top: 20%;
     right: 5%;
