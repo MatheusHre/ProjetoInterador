@@ -165,7 +165,7 @@ img{
   .navbar_menu.active {
     background: var(--terciary-color);
     top: 100%;
-    opacity: 1;
+    opacity: 1;    
     transition: all 0.5s ease;
     z-index: 99;
     height: 60vh;
@@ -193,6 +193,11 @@ img{
     padding: 2rem;
     width: 100%;
     display: table;
+  }
+
+  #icon{
+    display:table;
+    margin: 5px auto;
   }
 
   .navbar_btn {
